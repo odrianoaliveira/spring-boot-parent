@@ -7,7 +7,7 @@
     <groupId>tech.adriano</groupId>
     <artifactId>spring-boot-parent</artifactId>
     <description>Adriano Tech - Spring Boot Parent</description>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
 
     <organization>
         <name>Adriano Tech S/A</name>
@@ -25,7 +25,7 @@
     <properties>
         <java.version>1.8</java.version>
 
-        <spring-boot.version>1.5.10.RELEASE</spring-boot.version>
+        <spring-boot.version>2.0.0.RELEASE</spring-boot.version>
         <projectreactor.version>3.1.5.RELEASE</projectreactor.version>
 
         <maven-compiler-plugin-version>3.5.1</maven-compiler-plugin-version>
