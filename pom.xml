@@ -51,7 +51,27 @@
         <resource.delimiter>@</resource.delimiter> <!-- delimiter that doesn't clash with Spring ${} placeholders -->
 
         <start-class>tech.adriano.Application</start-class>
+
+        <myMavenRepoReadUrl>https://mymavenrepo.com/repo/mRqpchrBvJpwiepvCwCf/</myMavenRepoReadUrl>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoReadUrl}</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencyManagement>
         <dependencies>
