@@ -1,1 +1,1 @@
-# spring-cloud-parent
+# spring-boot-parent
